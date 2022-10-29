@@ -1,0 +1,76 @@
+.title {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.daily-item {
+  background-color: #ffffffc5;
+  /* background-color: #f5f5f5; */
+  border-radius: 25px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+
+  height: 30px;
+  margin: 10px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 19px;
+  padding: 5px 20px;
+}
+
+.icon-small {
+  width: 40px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+}
+
+.daily-item .day {
+  cursor: inherit;
+  color: #212121;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.description {
+  cursor: inherit;
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.min-max {
+  color: #ff4d00;
+  font-weight: 800;
+
+}
+
+.daily-details-grid {
+  background-color: #d8e6e1c5;
+  width: 94%;
+  border-radius: 25px;
+  margin-left: 15px;
+  grid-row-gap: 0;
+  grid-column-gap: 15px;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 15px;
+  row-gap: 0;
+}
+
+.daily-details-grid-item {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child {
+  color: #750f0f;
+}
+
+.daily-details-grid-item label:last-child {
+  color: #ff0000;
+}
